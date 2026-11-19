@@ -1,0 +1,15 @@
+name = "gen1-class-api"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "gen1-class-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "gen1-class-files"
+
+[vars]
+FRONTEND_ORIGIN = "https://www.gen1.co.il"
